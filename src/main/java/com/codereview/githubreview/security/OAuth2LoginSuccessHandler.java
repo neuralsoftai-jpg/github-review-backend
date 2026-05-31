@@ -20,7 +20,7 @@ public class OAuth2LoginSuccessHandler extends SimpleUrlAuthenticationSuccessHan
 
     private final JwtService jwtService;
     private final UserRepository userRepository;
-    private final String frontendUrl = "http://localhost:5173/auth/callback";
+    private final String frontendUrl = "https://github-review-app.vercel.app/auth/callback](https://github-review-app.vercel.app/auth/callback";
 
     public OAuth2LoginSuccessHandler(JwtService jwtService, UserRepository userRepository) {
         this.jwtService = jwtService;
