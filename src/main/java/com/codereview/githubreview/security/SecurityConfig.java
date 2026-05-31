@@ -79,8 +79,8 @@ public class SecurityConfig {
         // 🚨 IMPORTANT: Yahan apna VERCEL LIVE URL add karna (bina last wale '/' ke)
         configuration.setAllowedOrigins(Arrays.asList(
                 "http://localhost:5173", // Local Vite
-                "http://localhost:3000", // Local React/NextJS
-                "https://brand-growth.vercel.app" // TODO: YAHAN APNA ASLI VERCEL URL DAALO
+               // "http://localhost:3000", // Local React/NextJS
+               "https://github-review-app.vercel.app" // TODO: YAHAN APNA ASLI VERCEL URL DAALO
         ));
 
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
